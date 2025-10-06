@@ -1,59 +1,32 @@
-# Inventario
+Gestión de Inventario
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.4.
+Aplicación desarrollada con Angular 20 para la administración básica de productos. Permite agregar, listar, editar y eliminar productos dentro de un inventario de forma sencilla y responsiva.
 
-## Development server
+Características:
 
-To start a local development server, run:
+- Agregar productos con nombre, cantidad y precio.
 
-```bash
-ng serve
-```
+- Visualizar la lista de productos en una tabla dinámica.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Editar y eliminar productos.
 
-## Code scaffolding
+- Diseño responsive adaptable a diferentes tamaños de pantalla.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Se utilizó:
 
-```bash
-ng generate component component-name
-```
+- HTML y CSS
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- Angular 20
 
-```bash
-ng generate --help
-```
+- TypeScript
 
-## Building
+- Bootstrap 5
 
-To build the project run:
+Funcionamiento:
 
-```bash
-ng build
-```
+1. El usuario ingresa los datos del producto que son el nombre, la cantidad y el precio.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+2. Al presionar "Agregar", el producto se muestra en la tabla y desde la tabla se muestran botones "Editar" y "Eliminar".
 
-## Running unit tests
+3. Los datos se actualizan conforme se van agregando productos.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
